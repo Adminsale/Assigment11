@@ -5,7 +5,7 @@ import java.util.List;
 public class School {
     private List<Person> members;
 
-    //    Constructors
+
     public School() {
         this.members = new ArrayList<>();
     }
@@ -13,7 +13,7 @@ public class School {
         this.members = members;
     }
 
-    //    Accessor and Mutator
+
     public List<Person> getMembers() {
         return members;
     }
@@ -22,7 +22,7 @@ public class School {
         this.members.add(person);
     }
 
-    //  Methods
+
     @Override
     public String toString() {
         return members.toString();

@@ -7,7 +7,7 @@ public class Student extends Person {
     private List<Integer> grades;
 
 
-    //    Constructors
+
     public Student() {
         super();
         this.studentID = id++;
@@ -33,7 +33,7 @@ public class Student extends Person {
     }
 
 
-    //    Accessors and Mutators
+
     public void setGrades(List<Integer> grades) {
         this.grades = grades;
     }
@@ -46,7 +46,7 @@ public class Student extends Person {
         return studentID;
     }
 
-    //    Methods
+
     @Override
     public String toString() {
         return super.toString() + " I am a student with ID: " + studentID;
